@@ -1,0 +1,2 @@
+# mintic
+learning
