@@ -4,7 +4,7 @@ namespace Persistencia
 {
     public class AplicacionContext: DbContext
     {
-        public DbSet<Cliente> personas{get;set;}
+        public DbSet<Cliente> Clientes{get;set;}
         private const string connectionString = @"Data Source=localhost\sqlexpress;Initial Catalog = Grupo56;Integrated Security = True";
            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){
@@ -13,4 +13,3 @@ namespace Persistencia
             }
         }
     }
-}
