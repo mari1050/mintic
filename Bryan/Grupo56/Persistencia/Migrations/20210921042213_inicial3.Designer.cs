@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistencia;
 
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(AplicacionContext))]
-    partial class AplicacionContextModelSnapshot : ModelSnapshot
+    [Migration("20210921042213_inicial3")]
+    partial class inicial3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,10 +26,6 @@ namespace Persistencia.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Discriminator")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Documento")
                         .HasColumnType("int");
@@ -44,18 +42,6 @@ namespace Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
-
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Cliente");
-                });
-
-            modelBuilder.Entity("Dominio.Empleado", b =>
-                {
-                    b.HasBaseType("Dominio.Cliente");
-
-                    b.Property<int>("variable")
-                        .HasColumnType("int");
-
-                    b.HasDiscriminator().HasValue("Empleado");
                 });
 #pragma warning restore 612, 618
         }
