@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "isoplhWbX7+ZCc1yJ5a3J+GBoa7/hMN7OYgdQhyYFvtJWUPndOYjoI+IT/ozK7sb9tVH7KR3WwsldwyyrwzP2g==",
+  "dgSpecHash": "uhWH1eKS3WHZbmj3wYniKnOEXHw6QArAWn2NtqIjA5Q4Vn50sTKMq2bjcO/9QFia9R/ENB6B1y85UDX9tDov0Q==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bryan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bryan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

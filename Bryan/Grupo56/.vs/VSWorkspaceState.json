@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Aplicacion\\obj",
+    "\\Aplicacion",
+    "\\Dominio",
     "\\Persistencia"
   ],
-  "SelectedNode": "\\Persistencia\\IRepositorioEmpleado.cs",
   "PreviewInSolutionExplorer": false
 }

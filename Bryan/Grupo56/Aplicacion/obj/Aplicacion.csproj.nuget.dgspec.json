@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\Aplicacion.csproj": {}
+    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\Aplicacion.csproj": {
+    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\aplicacion\\obj\\",
+        "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -126,18 +126,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\persistencia\\Persistencia.csproj": {
+    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\persistencia\\obj\\",
+        "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -206,7 +206,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
