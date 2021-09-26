@@ -1,0 +1,102 @@
+#####COMO CREAR UNA APLICACION DE TIPO CAPAS EN C#
+#####PARA VISUAL ESTUDIO
+
+1)INSTALAR LAS SIGUIENTES EXTENSIONES
+-PowerShell
+-NuGet Package Manager
+-C# Snippets
+-C# Namespace Autocompletion
+-C# Extensions
+-C#
+-Auto-Using for C#
+
+2)Crear una carpeta vacía para el proyecto ejemplo(mkdir grupo56)
+
+3)Abrir (...) seguido de Terminal y ejecutar:
+dotnet new sln
+dotnet new classlib -o Dominio
+dotnet new classlib -o Persistencia
+dotnet new console -o Aplicacion
+dotnet new webapi -o Servicios
+
+4)Crear conexiones entre la arquitectura creada anteriormente
+dotnet sln add Aplicacion
+dotnet sln add Dominio
+dotnet sln add Persistencia
+dotnet sln add Servicios
+
+5)Eliminar Clases creadas automaticamente por VISUAL
+
+6)Agregar en el archivo Persistencia.csproj las extensiones:
+CTRL+SHIFT + P + NuGet Package Manager
+
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+7) en Aplicacion agregar solo Microsoft.EntityFrameworkCore.Design
+
+
+8) Agregar relacion entre Dominio y Persistencia
+cd Persistencia/
+dotnet add reference ../Dominio
+
+9) Ir hasta la capa de Dominio y crear clase de C#
+-Cliente.cs
+        public int ID {get;set; }
+
+        public string Nombre { get; set; }
+
+        public int Edad {get;set; }
+
+        public int Tipo_Documento {get;set; }
+        
+        public int Documento { get; set; }
+
+10) Ir hasta persistencia y agregar clase:
+-AplicacionContext.cs
+
+11) En AplicacionContext.cs colocar antes del Namespace
+using Microsoft.EntityFrameworkCore;
+using Dominio;
+namespace Persistencia
+{
+    public class AplicacionContext : DbContext
+    {
+    private const string connectionString = @"Data Source=localhost\grupo1; Initial Catalog = Grupo56;Integrated Security = True";
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
+        if(!optionsBuilder.IsConfigured){
+            optionsBuilder.UseSqlServer(connectionString);
+        }    
+        }
+    }
+}
+
+12) Ir hasta aplicacion y agregar la referencia a persistencia
+cd Aplicacion/
+dotnet add reference ..\Persistencia\
+
+13) Regresar a Persistencia y ejecutar:
+cd ../Persistencia
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add Inicial --startup-project ..\Aplicacion
+dotnet ef database update --startup-project ..\Aplicacion
+
+14) Con esto solo se creo la tabla de migracion Inicial. Para poder ver la tabla Clientes, se tiene:
+*Ir hasta el archivo AplicacionContext.cs en la capa Persistencia y agregar antes de la la declaracion de "connectionString"
+    public DbSet<Cliente> personas {get;set;}
+
+*luego ejecutar en consola
+dotnet ef migrations add Inicial6 --startup-project ..\Aplicacion
+dotnet ef database update --startup-project ..\Aplicacion
+
+15) Crear interfaz en Persistencias para facilitar su implementación en otras capas
+
+cd .\Persistencia
+click derecho en Persistencia > C# interface
+nombre: iRepositorioCliente.cs
+se debe editar y anexar los metodos add,read,remove,get
+
+16)Crear FrontEnd
+dotnet new webapp -o FrontEnd

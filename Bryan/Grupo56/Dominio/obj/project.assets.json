@@ -8,31 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bryan\\.nuget\\packages\\": {},
-    "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\milto\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\milto\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\milto\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

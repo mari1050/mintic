@@ -1,0 +1,19 @@
+@page
+@model PersonaModel
+@{
+    ViewData["Title"] = "Persona";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Listado de Personas Registradas en localhost.</p>
+<table class="table">
+    @foreach (var Persona in Model.Personas)
+    {
+        <tr>
+            <td>@Persona.ID</td>
+            <td>@Persona.Nombre</td>
+            <td>@Persona.Apellido</td>
+            <td>@Persona.Cedula</td>
+        </tr>
+    }
+</table>
