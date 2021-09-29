@@ -1,0 +1,113 @@
+@page
+@model Frontend.Pages.PrivacyModel
+
+ITEM A CONSULTAR
+<select name="number" id=selecter>
+    <option value="">Seleccione Consulta</option>
+    <option value="1">Clientes</option>
+    <option value="2">Empleados</option>
+    <option value="3">Empresa</option>
+</select>
+<br>
+<br>
+<br>
+<br>
+
+ @{
+    ViewData["Title"] = "Empleados en BD";
+ }
+@{
+    ViewData["Title1"] = "Clientes en BD";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table" id="tabla empleados">
+        <tr>
+            <th style="background-color: grey">Nombre</th>
+            <th style="background-color: grey">Apellido</th>
+            <th style="background-color: grey">Cedula</th>
+            <th style="background-color: grey">Tipo_empleado</th>
+            <th style="background-color: grey">Cantidad_subordinados</th>    
+        </tr>
+
+    @foreach (var Empleados in Model.Empleado)
+    {
+         <tr>
+            <td>@Empleados.Nombre</td>
+            <td>@Empleados.Apellido</td>
+            <td>@Empleados.Cedula</td>
+            <td>@Empleados.Tipo_empleado</td>
+            <td>@Empleados.Cantidad_subordinados</td>    
+        </tr>
+    }
+</table>
+
+<h1>@ViewData["Title1"]</h1>
+
+<table class="table" id="tabla clientes">
+        <tr>
+            <th style="background-color: grey">Nombre</th>
+            <th style="background-color: grey">Apellido</th>
+            <th style="background-color: grey">Direccion</th>
+            <th style="background-color: grey">Cedula</th>
+  
+        </tr>
+
+    @foreach (var Clientes in Model.Clientes)
+    {
+         <tr>
+            <td>@Clientes.Nombre</td>
+            <td>@Clientes.Apellido</td>
+            <td>@Clientes.Direccion</td>
+            <td>@Clientes.Cedula</td>
+  
+        </tr>
+    }
+</table>
+
+
+<script>
+    var tabla1=document.getElementById("tabla empleados");
+    var tabla2=document.getElementById("tabla clientes");
+
+    tabla1.style.visibility="hidden";
+    tabla2.style.visibility="hidden";
+
+    let seleccion = document.getElementById("selecter");
+
+    seleccion.addEventListener('change',Geeks);
+
+        function Geeks() 
+        {
+            var boton=document.getElementById("f5");          
+            var lst = document.getElementById("selecter").value;
+
+            switch(lst)
+            {
+                case "1":
+                tabla1.style.visibility="hidden";
+                tabla2.style.visibility="visible";
+                boton.style.backgroundColor="red";
+                break;
+                case "2":
+                tabla2.style.visibility="hidden";
+                tabla1.style.visibility="visible";
+                boton.style.backgroundColor="green";
+                break;
+                default:
+                tabla1.style.visibility="hidden";      
+                tabla2.style.visibility="hidden";   
+                boton.style.backgroundColor="gray";       
+            }
+
+        } 
+    
+</script>
+
+
+<input type="button" id="f5" value="Actualizar" onclick="location.reload()"/>
+
+
+
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B+F2Rkf3vj13T3DwHEA0RsUwdCqAnfGjc7Zh7JZ39/HjAOq0uJL3zuCLhziXuwWydtTq+6YZtOIP0NxuGAA8vg==",
+  "dgSpecHash": "FfyHM2aki6x3UWKlqS7OY0P1/iTZIF0a8Px8AIamFHIUlfY2OPxYp31O+rGKZDwrOe8IIO3blMHN6r4oTgDvsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\milto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\milto\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

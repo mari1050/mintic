@@ -1520,16 +1520,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Aplicacion/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Aplicacion.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Aplicacion.dll": {}
-        }
-      },
       "Dominio/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5808,11 +5798,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "Aplicacion/1.0.0": {
-      "type": "project",
-      "path": "../Aplicacion/Aplicacion.csproj",
-      "msbuildProject": "../Aplicacion/Aplicacion.csproj"
-    },
     "Dominio/1.0.0": {
       "type": "project",
       "path": "../Dominio/Dominio.csproj",
@@ -5821,7 +5806,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Aplicacion >= 1.0.0",
       "Dominio >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.9",
@@ -5835,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\milto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\persistencia\\obj\\",
+      "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\milto\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5854,11 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\Aplicacion\\Aplicacion.csproj"
-            },
-            "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\1-Proyecto_Grupo56\\Dominio\\Dominio.csproj"
+            "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Grupo56\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -5905,7 +5886,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

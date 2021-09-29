@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JZs5h+NOcVA9pP4HHBWyL82MlWvJReFodMPOMnnXxrBmAOgz3I7TyG601Zne+chTm0aCKkhQ3I7L5svP6o4jIQ==",
+  "dgSpecHash": "ItabtyP9KXjmYoaL+P9z1mC3AUwBG3jNnBCVQZgxrIvh7MOirKZ9kAFXwUBEI/CaTZHAEIZb5HU6ZgPoi/dWCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\frontend\\Frontend.csproj",
+  "projectFilePath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\frontend\\Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\milto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\milto\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
