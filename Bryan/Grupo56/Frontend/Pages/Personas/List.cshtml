@@ -21,7 +21,6 @@
         <th>Cliente</th>
         <th>Edad</th>
         <th>Detalles</th>
-        <th>Editar</th>
         <th>Borrar</th>
     </tr>
     @foreach (var Cliente in Model.Clientecitos)
@@ -32,7 +31,7 @@
             <td>@Cliente.Edad</td>
             <td>
                 <a asp-page="./Details" asp-route-id="@Cliente.Id">
-                    <i class="fa-circle-info"></i>detalles
+                    <i class="fa-solid fa-trash-can"></i>detalles
                 </a>
             </td>
             <td>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj": {}
+    "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj": {
+    "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\obj\\",
+        "outputPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5820,11 +5820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Persistencia\\obj\\",
+      "outputPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5845,8 +5845,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\GitHub\\GitHub\\mintic\\bryan\\grupo56\\Dominio\\Dominio.csproj"
+            "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj"
             }
           }
         }
