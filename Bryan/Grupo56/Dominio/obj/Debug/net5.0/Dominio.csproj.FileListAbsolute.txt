@@ -22,3 +22,15 @@ C:\Users\milto\OneDrive\Documents\Github Proyecto Mintic\mintic\Bryan\Grupo56\Do
 C:\Users\milto\OneDrive\Documents\Github Proyecto Mintic\mintic\Bryan\Grupo56\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\milto\OneDrive\Documents\Github Proyecto Mintic\mintic\Bryan\Grupo56\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\milto\OneDrive\Documents\Github Proyecto Mintic\mintic\Bryan\Grupo56\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\GitHub\GitHub\mintic\bryan\grupo56\Dominio\obj\Debug\net5.0\Dominio.pdb

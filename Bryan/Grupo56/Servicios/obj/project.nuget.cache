@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ypNxIoFjK7oct6G+FuOXvQ1t4w71apQ50WzoecPaLDuBJzGWsEjz3UnkmZoYkQ+IwAZRZxaew3nrhVcLAfXZWg==",
+  "dgSpecHash": "GnowF8lOU6Wezc6PenB0IeKj+M+cM9Qs65Sl7nIMkWfZJUAG6DVTJT/uhUc4SoSBvGChfdSm4e+6A8d5Lbtqww==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
+  "projectFilePath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\bryan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

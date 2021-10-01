@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj": {}
+    "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj": {
+    "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
+        "projectPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\Servicios.csproj",
         "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\mintic\\mintic\\Bryan\\Grupo56\\Servicios\\obj\\",
+        "outputPath": "C:\\GitHub\\GitHub\\mintic\\Bryan\\Grupo56\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
