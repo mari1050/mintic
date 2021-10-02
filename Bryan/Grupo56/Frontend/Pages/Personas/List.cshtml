@@ -31,14 +31,18 @@
             <td>@Cliente.Edad</td>
             <td>
                 <a asp-page="./Details" asp-route-id="@Cliente.Id">
-                    <i class="fa-solid fa-trash-can"></i>detalles
+                    <!-- solid style -->
+                    <i class="fas fa-info-circle"></i>
+
                 </a>
             </td>
             <td>
                 <a asp-page="./Delete" asp-route-id="@Cliente.Id">
-                    <i class="fa-solid fa-trash-can"></i>Borrar
+                    <i class="fas fa-trash-alt"></i>
                 </a>
             </td>
         </tr>
     }
 </table>
+
+
