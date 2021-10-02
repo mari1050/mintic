@@ -5,3 +5,26 @@
 
 <h1>Soy el crear</h1>
 <p>La fecha es @DateTime.Now</p>
+
+
+
+<h1>Crear Persona</h1>
+
+
+<div>
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Persona.Nombre" class="Control-label"></label>
+                <input asp-for="Persona.Nombre" class="form-control" />
+                <!--<span asp-validation-for="Persona.Nombre" class="text-danger"></span>-->
+                <label asp-for="Persona.Edad" class="Control-label"></label>
+                <input asp-for="Persona.Edad" class="form-control" />
+                <label asp-for="Persona.Tipo_documento" class="Control-label"></label>
+                <input asp-for="Persona.Tipo_documento" class="form-control" />
+            </div>
+            <input type="submit" value="Crear" class="btn-dark">
+        </form>
+    </div>
+</div>
