@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistencia;
 
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(AplicacionContext))]
-    partial class AplicacionContextModelSnapshot : ModelSnapshot
+    [Migration("20211004062533_Inicial11")]
+    partial class Inicial11
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,8 +30,8 @@ namespace Persistencia.Migrations
                     b.Property<string>("Cargo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Celular")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Celular")
+                        .HasColumnType("int");
 
                     b.Property<string>("Ciudad")
                         .HasColumnType("nvarchar(max)");
@@ -46,15 +48,31 @@ namespace Persistencia.Migrations
                     b.Property<string>("Direccion_Oficina")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nombre_Cliente")
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Telefono")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Nombre_Cliente")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Telefono")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Cliente");
+                });
+
+            modelBuilder.Entity("Dominio.Empleado", b =>
+                {
+                    b.HasBaseType("Dominio.Cliente");
+
+                    b.Property<int>("variable")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("Empleado");
                 });
 #pragma warning restore 612, 618
         }

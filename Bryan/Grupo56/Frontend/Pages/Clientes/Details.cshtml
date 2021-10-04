@@ -1,0 +1,27 @@
+﻿@page
+@model MyApp.Namespace.DetailsModel
+@{
+    ViewData["Title"] = "Detalle de persona";
+}
+
+<h1>Detalle de persona</h1>
+<div>
+    <dl class="row">
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.Persona.Nombre_Cliente)
+        </dt>
+        <dt class="col-md-9">
+            @Html.DisplayFor(model => model.Persona.Contacto_Autorizado)
+        </dt>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.Persona.Cargo)
+        </dt>
+        <dt class="col-md-9">
+            @Html.DisplayFor(model => model.Persona.Telefono)
+        </dt>
+        <dt class="col-md-3">
+            @Html.DisplayNameFor(model => model.Persona.Celular)
+        </dt>
+    </dl>
+
+</div>

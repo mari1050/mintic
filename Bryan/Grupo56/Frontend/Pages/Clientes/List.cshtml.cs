@@ -16,7 +16,7 @@ public class PrivacyModel : PageModel
        //private string[] saludos = { "Buenos dias", "Buenas tardes", "Buenas noches", "Hasta mañana" };
        // public List<string> ListaSaludos { get; set; }
        private static IRepositorioCliente repoCliente = new RepositorioCliente(new Persistencia.AplicacionContext());
-       public IEnumerable<Cliente> Clientecitos {get;set;}
+       public IEnumerable<Cliente> Cliente {get;set;}
 
 
        
@@ -24,7 +24,7 @@ public class PrivacyModel : PageModel
         {
            // ListaSaludos = new List<string>();
            // ListaSaludos.AddRange(saludos);
-          Clientecitos=repoCliente.GetAllCliente();
+          Cliente=repoCliente.GetAllCliente();
 
         }
     }

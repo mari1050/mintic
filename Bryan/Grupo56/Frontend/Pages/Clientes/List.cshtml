@@ -1,0 +1,56 @@
+@page
+@model Frontend.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "Bryan";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>En esta pagina veremos los datos</p>
+
+<div>
+    <a asp-page="./Create">
+        <i class="fas fa-plus"></i>
+    </a>
+</div>
+<table class="table">
+    <tr>
+        <th><center>Cliente</center></th>
+        <th><center>Contacto Autorizado</center></th>
+        <th><center>Celular</center></th>
+        <th><center>Detalles</center></th>
+        <th><center>Borrar</center></th>
+    </tr>
+    @foreach (var Cliente in Model.Cliente)
+    {
+<tr>
+    <td>
+        <center>
+            @Cliente.Nombre_Cliente
+        </center>
+    </td>
+    <td>
+        <center>
+            @Cliente.Contacto_Autorizado
+        </center>
+    </td>
+    <td>
+        <center>
+            @Cliente.Celular
+        </center>
+    </td>
+    <td>
+        <a asp-page="./Details" asp-route-id="@Cliente.Id">
+            <!-- solid style -->
+            <center><i class="fas fa-info-circle"></i></center>
+        </a>
+    </td>
+    <td>
+        <a asp-page="./Delete" asp-route-id="@Cliente.Id">
+            <center><i class="fas fa-trash-alt"></i></center>
+        </a>
+    </td>
+</tr>
+    }
+</table>
+
+

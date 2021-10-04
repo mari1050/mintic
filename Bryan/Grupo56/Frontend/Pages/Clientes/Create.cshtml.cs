@@ -6,13 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Dominio;
 using Persistencia;
+using Microsoft.AspNetCore.Http;
+
 namespace MyApp.Namespace
 {
     public class CreateModel : PageModel
     {
         public Cliente Persona { get; set; }
-        private static IRepositorioCliente repoCliente = new RepositorioCliente(new Persistencia.AplicacionContext());
 
+        private static IRepositorioCliente repoCliente = new RepositorioCliente(new Persistencia.AplicacionContext());
+        [BindProperty]
+        public SubirArchivoModel SubirArchivo { get; set; }
         public void OnGet()
         {
         }
@@ -21,6 +25,13 @@ namespace MyApp.Namespace
             repoCliente.AddCliente(persona);
 
         }
+
+
+    }
+    public class SubirArchivoModel
+    {
+        public string Descripcion { get; set; }
+        public IFormFile Archivo { get; set; }
     }
 }
 

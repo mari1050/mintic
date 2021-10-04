@@ -39,20 +39,20 @@ namespace Persistencia
                 p=> p.Id==idCliente
             );
         }
-        public Cliente UpdateCliente(Cliente cliente)
+        /*public Cliente UpdateCliente(Cliente cliente)
         {
             var cliente_encontrado=_appContext.Clientes.FirstOrDefault(
                 p=>p.Id==cliente.Id
             );
             if(cliente_encontrado!=null)
             {
-                cliente_encontrado.Nombre=cliente.Nombre;
-                cliente_encontrado.Edad=cliente.Edad;
+                cliente_encontrado.Nombre_Cliente=cliente.Nombre_Cliente;
+                cliente_encontrado.Telefono=cliente.Telefono;
                 cliente_encontrado.Tipo_documento=cliente.Tipo_documento;
                 cliente_encontrado.Documento=cliente.Documento;
             }
             return cliente_encontrado;
-        }
+        }*/
 
     }
 }

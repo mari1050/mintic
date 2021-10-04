@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistencia;
 
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(AplicacionContext))]
-    partial class AplicacionContextModelSnapshot : ModelSnapshot
+    [Migration("20211004064011_Inicial12")]
+    partial class Inicial12
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,8 +30,8 @@ namespace Persistencia.Migrations
                     b.Property<string>("Cargo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Celular")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Celular")
+                        .HasColumnType("int");
 
                     b.Property<string>("Ciudad")
                         .HasColumnType("nvarchar(max)");
@@ -49,8 +51,8 @@ namespace Persistencia.Migrations
                     b.Property<string>("Nombre_Cliente")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Telefono")
-                        .HasColumnType("bigint");
+                    b.Property<int>("Telefono")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

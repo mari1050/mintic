@@ -1,0 +1,95 @@
+﻿@page
+@model MyApp.Namespace.CreateModel
+@{
+}
+
+<h1>INSCRIPCIÓN DE CANAL, PRODUCTORA, PROGRAMADORA Y/O OPERADORA</h1>
+<br />
+<h2>El primer paso para participar es realizar el registro de su Canal o Productora, de manera posterior podra inscribir sus programas y postular talentos de las diferentes producciones.</h2>
+
+
+<div>
+    <form method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <!--<span asp-validation-for="Persona.Nombre" class="text-danger"></span>-->
+        <div class="form-group">
+            <label class="Control-label">Nombre Cliente</label>
+            <input asp-for="Persona.Nombre_Cliente" class="form-control" placeholder="*Nombre del Canal o Productora Postulante" />
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label class="Control-label">Contacto Autorizado</label>
+                <input asp-for="Persona.Contacto_Autorizado" class="form-control" placeholder="*Contacto autorizado por el Canal o Productora" />
+            </div>
+            <div class="form-group col-md-6">
+                <label class="Control-label">Cargo</label>
+                <input asp-for="Persona.Cargo" class="form-control" placeholder="*Cargo" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label class="Control-label">Celular</label>
+                <input asp-for="Persona.Celular" class="form-control" placeholder="*Celular" />
+            </div>
+            <div class="form-group col-md-6">
+                <label class="Control-label">Telefono</label>
+                <input asp-for="Persona.Telefono" class="form-control" placeholder="*Telefono" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label class="Control-label">Correo Electronico</label>
+                <input asp-for="Persona.Correo_Electronico" class="form-control" placeholder="*Correo Electronico" />
+            </div>
+            <div class="form-group col-md-6">
+                <label class="Control-label">Correo electronico2</label>
+                <input asp-for="Persona.Correo_Electronico2" class="form-control" placeholder="*Correo Electronico 2" />
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label class="Control-label">Ciudad</label>
+                <input asp-for="Persona.Ciudad" class="form-control" placeholder="Ciudad" />
+            </div>
+        </div>
+        <hr />
+        <div class="form-row">
+            <div class="col-md-6">
+
+                <label for="Input_Camara_Comercio">
+                    *Certificado actualizado de Cámara de comercio del Canal o Productora (Extensiones permitidas jpg.jpeg, png, pdf). Máximo 2 Megas:
+                </label>
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="file" id="Input_Camara_Comercio" name="Archivo1">
+            </div>
+        </div>
+        <hr />
+        <div class="form-row">
+            <div class="col-md-6">
+                <label for="Input_Carta_Intencion">
+                    *Carta de intención de postulacioón del Canal o Productora (firmada y escaneada, extensiones permitidas jpg, jpeg, png, pdf). Máximo 2 Megas:
+                </label>
+
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="file" id="Input_Carta_Intencion" name="Archivo2">
+            </div>
+        </div>
+        <hr>
+        <div class="form-row">
+            <div class="col-md-6">
+                <label for="Input_Carta_Intencion">
+                    *Logo del Canal o Productora (Extensiones permitidas jpg, jpeg, png). Máximo 2 Megas:
+                </label>
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" type="file" id="Input_Logo_Canal" name="Archivo3">
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Crear" class="btn btn-primary">
+        </div>
+    </form>
+</div>
