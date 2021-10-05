@@ -225,7 +225,7 @@ C:\GitHub\GitHub\mintic\bryan\grupo56\frontend\obj\Debug\net5.0\Frontend.dll
 C:\GitHub\GitHub\mintic\bryan\grupo56\frontend\obj\Debug\net5.0\ref\Frontend.dll
 C:\GitHub\GitHub\mintic\bryan\grupo56\frontend\obj\Debug\net5.0\Frontend.pdb
 C:\GitHub\GitHub\mintic\bryan\grupo56\frontend\obj\Debug\net5.0\Frontend.genruntimeconfig.cache
-C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Create.cshtml.g.cs
-C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Delete.cshtml.g.cs
-C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Clientes\Details.cshtml.g.cs
-C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Clientes\List.cshtml.g.cs
+C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Participantes\Create.cshtml.g.cs
+C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Participantes\Delete.cshtml.g.cs
+C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Participantes\Details.cshtml.g.cs
+C:\GitHub\GitHub\mintic\Bryan\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Participantes\List.cshtml.g.cs

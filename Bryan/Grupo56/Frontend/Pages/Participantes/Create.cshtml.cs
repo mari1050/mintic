@@ -34,5 +34,3 @@ namespace MyApp.Namespace
         public IFormFile Archivo { get; set; }
     }
 }
-
-
