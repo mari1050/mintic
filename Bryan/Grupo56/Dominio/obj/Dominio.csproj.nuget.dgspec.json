@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\milto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\milto\\AppData\\Roaming\\NuGet\\NuGet.Config"

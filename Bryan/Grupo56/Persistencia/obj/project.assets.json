@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\milto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\milto\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\grupo56\\Dominio\\Dominio.csproj"
+            "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\milto\\OneDrive\\Documents\\Github Proyecto Mintic\\mintic\\Bryan\\Grupo56\\Dominio\\Dominio.csproj"
             }
           }
         }
