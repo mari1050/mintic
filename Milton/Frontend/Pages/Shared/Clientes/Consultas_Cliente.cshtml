@@ -1,0 +1,39 @@
+@page
+@model Frontend.Pages.Consultas_Cliente
+
+<br>
+
+@{
+    ViewData["Title1"] = "Clientes en BD";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h1>@ViewData["Title1"]</h1>
+
+<table class="table" id="tabla clientes">
+        <tr>
+            <th style="background-color: grey">Nombre</th>
+            <th style="background-color: grey">Apellido</th>
+            <th style="background-color: grey">Direccion</th>
+            <th style="background-color: grey">Cedula</th>
+  
+        </tr>
+
+    @foreach (var Clientes in Model.Clientes)
+    {
+         <tr>
+            <td>@Clientes.Nombre</td>
+            <td>@Clientes.Apellido</td>
+            <td>@Clientes.Direccion</td>
+            <td>@Clientes.Cedula</td>
+  
+        </tr>
+    }
+</table>
+
+
+
+
+
+

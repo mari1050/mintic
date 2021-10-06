@@ -8,17 +8,16 @@ namespace Persistencia
     {
        private readonly AplicacionContext _appContext;
 
-       public RepositorioEmpleado(AplicacionContext appContext){
+       public RepositorioEmpleado(AplicacionContext appContext)
+       {
            _appContext = appContext;
-
-
        }
 
-        public Empleado AddEmpleado(Empleado empleado)
+        public void AddEmpleado(Empleado empleado)
         {
             var nuevo_empleado = _appContext.Add(empleado);
             _appContext.SaveChanges();
-            return nuevo_empleado.Entity;
+            //return nuevo_empleado.Entity;
         }
 
         public void DeleteEmpleado(int idEmpleado)
@@ -36,7 +35,9 @@ namespace Persistencia
 
         public IEnumerable<Empleado> getAll()
         {
-            return _appContext.Empleados;
+            var listado = _appContext.Empleados;
+            _appContext.SaveChanges();
+            return listado;
         }
 
         public Empleado GetEmpleado(int idEmpleado)
@@ -46,7 +47,7 @@ namespace Persistencia
             );
         }
 
-        public Empleado UpdateEmpleado(Empleado empleado)
+        Empleado iRepositorioEmpleado.UpdateEmpleado(Empleado empleado)
         {
             var encontrado_Empleado = _appContext.Empleados.FirstOrDefault(
                 p => p.ID == empleado.ID
@@ -64,5 +65,6 @@ namespace Persistencia
             }
             return encontrado_Empleado;
         }
+
     }
 }

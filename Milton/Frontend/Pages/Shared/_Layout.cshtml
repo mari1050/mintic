@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Frontend</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/dafccf6343.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -22,7 +23,20 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Shared/Empleados/Consultas">Consultas</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Shared/Empleados/Consultas_Empleados">Consultas_Empleados</a>
+
+                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Shared/Clientes/Consultas_Cliente">Consultas_Cliente</a>
+
+                        </li>
+                         </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Shared/Empresa/Consultas_Empresa">Consultas_Empresa</a>
+                        </li>
+                                                </li>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Shared/Empleados/Nuevo_Empleado">Nuevo_Empleado</a>
 
                         </li>
                     </ul>
@@ -38,7 +52,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Frontend - <a asp-area="" asp-page="/Shared/Empleados/Consultas">Consultas</a>
+            &copy; 2021 - Frontend - <a asp-area="" asp-page="/Shared/Empleados/Consultas_Empleados">Consultas_Empleados</a>
         </div>
     </footer>
 

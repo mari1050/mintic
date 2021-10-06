@@ -1,0 +1,31 @@
+@page
+@model Frontend.Pages.Consultas_Empresa
+
+ @{
+    ViewData["Title"] = "Empresas en BD";
+ }
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table" id="tabla empleados">
+        <tr>
+            <th style="background-color: grey">Nombre</th>
+            <th style="background-color: grey">Nit</th>
+            <th style="background-color: grey">Ciudad</th>
+            <th style="background-color: grey">Telefono</th> 
+        </tr>
+
+    @foreach (var Empresa in Model.Empresa)
+    {
+         <tr>
+            <td>@Empresa.Nombre</td>
+            <td>@Empresa.Nit</td>
+            <td>@Empresa.Ciudad</td>
+            <td>@Empresa.Telefono</td>    
+        </tr>        
+    }
+</table>
+
+
+
+

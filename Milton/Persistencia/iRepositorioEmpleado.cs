@@ -6,7 +6,7 @@ namespace Persistencia
     {
          IEnumerable<Empleado> getAll();
          
-         Empleado AddEmpleado(Empleado empleado);
+         void AddEmpleado(Empleado empleado);
 
          Empleado UpdateEmpleado(Empleado empleado);
 

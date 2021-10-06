@@ -1,0 +1,71 @@
+@page
+@model Frontend.Pages.Editar_Empleado
+
+@{
+   ViewData["Title"] = "Empleados en BD";
+}
+
+<h1>EMPLEADO A EDITAR</h1>
+<br>
+<br>
+<form method="post">
+   <input type="hidden" asp-for="EmpleadoEditar.ID" />
+
+   <div class="col-sm-2">
+      <label asp-for="EmpleadoEditar.Nombre"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="EmpleadoEditar.Nombre" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="EmpleadoEditar.Apellido"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="EmpleadoEditar.Apellido" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="EmpleadoEditar.Cedula"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="EmpleadoEditar.Cedula" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="EmpleadoEditar.Tipo_empleado"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="EmpleadoEditar.Tipo_empleado" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="EmpleadoEditar.Cantidad_subordinados"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="EmpleadoEditar.Cantidad_subordinados" class="form-control" />
+      </div>
+   </div>
+
+   <br>
+   <br>
+   <div class="form-group">
+      <input type="hidden" asp-for="EmpleadoEditar.ID">
+      <input type="submit" value="Editar" class="btn btn-warning">
+      <a asp-page="Consultas_Empleados"> Regresar</a>
+   </div>
+</form>

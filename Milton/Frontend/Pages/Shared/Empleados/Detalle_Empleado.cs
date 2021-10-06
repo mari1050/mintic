@@ -10,17 +10,16 @@ using Persistencia;
 
 namespace Frontend.Pages
 {
-    public class PrivacyModel : PageModel
+    public class Detalle_Empleado : PageModel
     {
         private static iRepositorioEmpleado irepoemp= new RepositorioEmpleado(new Persistencia.AplicacionContext());
         public IEnumerable<Empleado> Empleado {get;set;}
-        private static iRepositorioCliente irepocliente= new RepositorioCliente(new Persistencia.AplicacionContext());
-        public IEnumerable<Cliente> Clientes {get;set;}
+        
+        public Empleado Empleado_get {get;set;}
 
-        public void OnGet()
+        public void OnGet(int id)
         {
-            Empleado= irepoemp.getAll();
-            Clientes= irepocliente.getAll();
+            Empleado_get= irepoemp.GetEmpleado(id);
         }
     }
 }

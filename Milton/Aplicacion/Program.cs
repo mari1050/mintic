@@ -15,6 +15,7 @@ namespace Aplicacion
             Console.WriteLine("Hola mundo Cruel!");
             addCliente();
             addEmpleado();
+            UpdateEmpleado(13);
         }
 
         public static void addCliente()
@@ -39,6 +40,19 @@ namespace Aplicacion
 
             };
             repoEmpleado.AddEmpleado(empleado);
+        }
+        public static void UpdateEmpleado(int id)
+        {
+            var empleado=new Empleado
+            {
+                ID = 13,
+                Nombre="susana",
+                Apellido = "arango",
+                Cedula=6666,
+                Tipo_empleado="Administrativo",
+                Cantidad_subordinados=100
+            };
+            repoEmpleado.UpdateEmpleado(empleado);
         }
 
         public static void addEmpresa()

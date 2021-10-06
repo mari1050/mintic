@@ -1,0 +1,51 @@
+@page
+@model Frontend.Pages.Eliminar_Empleado
+
+@{
+   ViewData["Title"] = "Empleados en BD";
+}
+
+<h1>EMPLEADO A ELIMINAR</h1>
+<div>
+   <div class="row">
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.EmpleadoEliminar.Nombre)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.EmpleadoEliminar.Nombre)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.EmpleadoEliminar.Apellido)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.EmpleadoEliminar.Apellido)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.EmpleadoEliminar.Cedula)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.EmpleadoEliminar.Cedula)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.EmpleadoEliminar.Tipo_empleado)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.EmpleadoEliminar.Tipo_empleado)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.EmpleadoEliminar.Cantidad_subordinados)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.EmpleadoEliminar.Cantidad_subordinados)
+      </dt>
+
+   </div>
+
+</div>
+
+<form method="post">
+
+<input type="hidden" asp-for="EmpleadoEliminar.ID">
+<input type="submit" value="Eliminar" class="btn btn-danger"> 
+<a asp-page="Consultas_Empleados"> Regresar</a>
+</form>

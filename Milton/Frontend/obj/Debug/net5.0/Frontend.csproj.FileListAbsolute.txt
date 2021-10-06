@@ -73,4 +73,10 @@ C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Frontend.dll
 C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\ref\Frontend.dll
 C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Frontend.pdb
 C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Frontend.genruntimeconfig.cache
-C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Consultas.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Clientes\Consultas_Cliente.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Consultas_Empleados.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empresa\Consultas_Empresa.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Nuevo_Empleado.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Editar_Empleado.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Eliminar_Empleado.cshtml.g.cs
+C:\Users\milto\OneDrive\Documents\Grupo56\frontend\obj\Debug\net5.0\Razor\Pages\Shared\Empleados\Detalle_Empleado.cshtml.g.cs

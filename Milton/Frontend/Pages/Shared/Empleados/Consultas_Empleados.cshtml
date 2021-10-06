@@ -1,0 +1,41 @@
+@page
+@model Frontend.Pages.Consulta_Empleados
+
+ @{
+    ViewData["Title"] = "Empleados en BD";
+ }
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table" id="tabla empleados">
+        <tr>
+            <th style="background-color: grey">Nombre</th>
+            <th style="background-color: grey">Apellido</th>
+            <th style="background-color: grey">Cedula</th>
+            <th style="background-color: grey">Tipo_empleado</th>
+            <th style="background-color: grey">Cantidad_subordinados</th>    
+            <th style="background-color: grey">Detalle</th>
+            <th style="background-color: grey">Editar</th>
+            <th style="background-color: grey">Eliminar</th>  
+        </tr>
+
+    @foreach (var Empleados in Model.Empleados)
+    {
+         <tr>
+            <td>@Empleados.Nombre</td>
+            <td>@Empleados.Apellido</td>
+            <td>@Empleados.Cedula</td>
+            <td>@Empleados.Tipo_empleado</td>
+            <td>@Empleados.Cantidad_subordinados</td>    
+            <td>
+                <a class="btn btn-info" asp-page="Detalle_Empleado" asp-route-id=@Empleados.ID> Detalles</a></td>
+            <td><a class="btn btn-warning" asp-page="Editar_Empleado" asp-route-id=@Empleados.ID> Editar</a></td>
+            <td><a class="btn btn-danger" asp-page="Eliminar_Empleado" asp-route-id=@Empleados.ID> Eliminar</a></td>
+            <td></td>
+        </tr>
+    }
+</table>
+
+
+
+
