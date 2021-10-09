@@ -1,0 +1,45 @@
+﻿@page
+@model DetailsEmpleados
+@{
+    ViewData["Title"] = "Detalle Empleado";
+}
+<h1>Soy el DETAILS DE EMPLEADOS</h1> 
+
+<div>
+<div class="row">
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empleado_get.Nombre)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empleado_get.Nombre)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empleado_get.Apellido)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empleado_get.Apellido)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empleado_get.Cedula)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empleado_get.Cedula)
+   </dt>
+      <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empleado_get.Tipo_empleado)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empleado_get.Tipo_empleado)
+   </dt>
+   </dt>
+      <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empleado_get.Cantidad_subordinados)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empleado_get.Cantidad_subordinados)
+   </dt>
+
+</div>
+
+</div>
+<a asp-page="./List"> Regresar</a>

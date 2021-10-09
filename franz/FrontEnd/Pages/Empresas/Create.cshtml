@@ -1,0 +1,54 @@
+﻿@page
+@model CreateEmpresas
+@{
+ViewData["Title"]="Nuevo_Empresa";
+}
+
+<h1>EMPLEADO A INGRESAR</h1>
+
+<form method="post">
+    <div class="col-sm-2">
+        <label asp-for="EmpresaNuevo.Nombre"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpresaNuevo.Nombre" class="form-control" />
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <label asp-for="EmpresaNuevo.Nit"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpresaNuevo.Nit" class="form-control" />
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <label asp-for="EmpresaNuevo.Ciudad"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpresaNuevo.Ciudad" class="form-control" />
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <label asp-for="EmpresaNuevo.Telefono"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpresaNuevo.Telefono" class="form-control"/>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="form-group">
+        <div class="row">
+        <div class="col.sm-2">
+        <input type="submit" value="Crear" class = "btn btn-primary form-control"/>
+        <a asp-page="./List" class="btn btn-success form-control"> volver a lista</a>
+    </div>
+    </div>
+    </div>
+</form>

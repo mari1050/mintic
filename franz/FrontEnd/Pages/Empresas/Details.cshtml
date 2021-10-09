@@ -1,0 +1,38 @@
+﻿@page
+@model DetailsEmpresas
+@{
+    ViewData["Title"] = "Detalle Empresa";
+}
+<h1>Soy el DETAILS DE EMPRESAS</h1> 
+
+<div>
+<div class="row">
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_get.Nombre)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_get.Nombre)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_get.Nit)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_get.Nit)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_get.Ciudad)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_get.Ciudad)
+   </dt>
+      <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_get.Telefono)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_get.Telefono)
+   </dt>
+
+</div>
+
+</div>
+<a asp-page="./List"> Regresar</a>

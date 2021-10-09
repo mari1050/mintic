@@ -1,0 +1,45 @@
+﻿@page
+@model ListClientes
+@{
+    ViewData["Title"] = "Cliente";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Listado de Clientes Registradas en localhost.</p>
+<br>
+<br>
+<a class="btn btn-warning" asp-page="./Create"> Crear Registro</a>
+<table class="table">
+    <tr>
+            <!--<td>ID</td>-->
+            <td>Nombre</td>
+            <td>Apellido</td>
+            <td>Cedula</td>
+            <td>Direccion</td>
+            <td>Detalle</td>
+            <td>Editar</td>
+            <td>Eliminar</td
+    </tr>
+    @foreach (var Cliente in Model.Clientes)
+    {
+        <tr>
+            <!--<td>@Cliente.ID</td>-->
+            <td>@Cliente.Nombre</td>
+            <td>@Cliente.Apellido</td>
+            <td>@Cliente.Cedula</td>
+            <td>@Cliente.Direccion</td>
+            <!--Boton de detalle-->
+            <td><a class="btn btn-secondary" asp-page="./Details" asp-route-id="@Cliente.ID">
+                   <i class="fas fa-info-circle"></i>
+            </a></td>
+            <!--Boton para editar-->
+            <td><a class="btn btn-primary" asp-page="./Edit" asp-route-id="@Cliente.ID">
+                <i class="fas fa-user-edit"></i>
+            </a></td>
+            <!--Boton para eliminar-->
+            <td><a class="btn btn-danger" asp-page="./Delete" asp-route-id="@Cliente.ID">
+               <i class="fas fa-trash"></i>
+            </a></td>
+        </tr>
+    }
+</table>

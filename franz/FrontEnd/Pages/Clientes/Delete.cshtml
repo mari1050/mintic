@@ -1,0 +1,42 @@
+﻿@page
+@model DeleteClientes
+@{
+}
+<h1>CLIENTE A ELIMINAR</h1>
+<div>
+   <div class="row">
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.ClienteEliminar.Nombre)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.ClienteEliminar.Nombre)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.ClienteEliminar.Apellido)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.ClienteEliminar.Apellido)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.ClienteEliminar.Cedula)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.ClienteEliminar.Cedula)
+      </dt>
+      <dt class="col-md-2">
+         @Html.DisplayNameFor(model=>model.ClienteEliminar.Direccion)
+      </dt>
+      <dt class="col-md-10">
+         @Html.DisplayFor(model=> model.ClienteEliminar.Direccion)
+      </dt>
+
+   </div>
+
+</div>
+
+<form method="post">
+
+<input type="hidden" asp-for="ClienteEliminar.ID">
+<input type="submit" value="Eliminar" class="btn btn-danger"> 
+<a asp-page="./List"> Regresar</a>
+</form>

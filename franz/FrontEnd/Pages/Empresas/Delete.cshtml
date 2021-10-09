@@ -1,0 +1,42 @@
+﻿@page
+@model DeleteEmpresas
+@{
+}
+<h1>EMPRESA A ELIMINAR</h1>
+<div>
+   <div class="row">
+      <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_eliminar.Nombre)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_eliminar.Nombre)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_eliminar.Nit)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_eliminar.Nit)
+   </dt>
+   <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_eliminar.Ciudad)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_eliminar.Ciudad)
+   </dt>
+      <dt class="col-md-2">
+      @Html.DisplayNameFor(model=>model.Empresa_eliminar.Telefono)
+   </dt>
+   <dt class="col-md-10">
+      @Html.DisplayFor(model=> model.Empresa_eliminar.Telefono)
+   </dt>
+
+   </div>
+
+</div>
+
+<form method="post">
+
+<input type="hidden" asp-for="Empresa_eliminar.ID">
+<input type="submit" value="Eliminar" class="btn btn-danger"> 
+<a asp-page="./List"> Regresar</a>
+</form>

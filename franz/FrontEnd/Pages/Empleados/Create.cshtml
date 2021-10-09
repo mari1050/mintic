@@ -1,0 +1,63 @@
+﻿@page
+@model CreateEmpleados
+@{
+ViewData["Title"]="Nuevo_Empleado";
+}
+
+<h1>EMPLEADO A INGRESAR</h1>
+
+<form method="post">
+    <div class="col-sm-2">
+        <label asp-for="EmpleadoNuevo.Nombre"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpleadoNuevo.Nombre" class="form-control" />
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <label asp-for="EmpleadoNuevo.Apellido"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpleadoNuevo.Apellido" class="form-control" />
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <label asp-for="EmpleadoNuevo.Cedula"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpleadoNuevo.Cedula" class="form-control" />
+        </div>
+    </div>
+    <div class="col-sm-2">
+        <label asp-for="EmpleadoNuevo.Tipo_empleado"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpleadoNuevo.Tipo_empleado" class="form-control"/>
+        </div>
+    </div>
+
+    <div class="col-sm-2">
+        <label asp-for="EmpleadoNuevo.Cantidad_subordinados"></label>
+    </div>
+    <div class=row>
+        <div class="col-sm-4">
+            <input asp-for="EmpleadoNuevo.Cantidad_subordinados" class="form-control"/>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="form-group">
+        <div class="row">
+        <div class="col.sm-2">
+        <input type="submit" value="Crear" class = "btn btn-primary form-control"/>
+        <a asp-page="./List" class="btn btn-success form-control"> volver a lista</a>
+    </div>
+    </div>
+    </div>
+</form>

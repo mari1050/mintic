@@ -1,0 +1,57 @@
+﻿@page
+@model EditClientes
+@{
+}
+<h1>Soy el EDIT DE CLIENTES</h1>
+<br>
+<form method="post">
+   <input type="hidden" asp-for="ClienteEditar.ID" />
+
+   <div class="col-sm-2">
+      <label asp-for="ClienteEditar.Nombre"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="ClienteEditar.Nombre" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="ClienteEditar.Apellido"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="ClienteEditar.Apellido" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="ClienteEditar.Cedula"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="ClienteEditar.Cedula" class="form-control" />
+      </div>
+   </div>
+
+   <div class="col-sm-2">
+      <label asp-for="ClienteEditar.Direccion"></label>
+   </div>
+
+   <div class=row>
+      <div class="col-sm-4">
+         <input asp-for="ClienteEditar.Direccion" class="form-control" />
+      </div>
+   </div>
+
+   <br>
+   <br>
+   <div class="form-group">
+      <input type="hidden" asp-for="ClienteEditar.ID">
+      <input type="submit" value="Editar" class="btn btn-warning" >
+      <a asp-page="./List"> Regresar</a>
+   </div>
+</form>
